@@ -35,11 +35,10 @@ def numberToWords(num) -> str:
     return sentence
 
 
-entry = input("Enter a number or q for exit: ")
 while True:
+    entry = input("Enter a number or q for exit: ")
     if entry == "Q" or entry == "q": break
     print(numberToWords(int(entry)))
     print("\n")
-    entry = input("Enter a number or q for exit: ")
     
     
